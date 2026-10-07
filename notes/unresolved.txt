@@ -3,64 +3,10 @@
 # (usually in src/host/loader_services.cpp) before the game will start.
 # symbol | needed by
 ImageExists(char*) | eboxxi.so
-GetHelpFileName(char (&) [255], char const*, Locale::Languages, char const*) | eboxxi.so
-MeritthonDisplayRound(int, int, int, unsigned long) | eboxxi.so
 t_i_l() | eboxxi.so
 megastart(char const*, app_common::args_t*) | eboxxi.so
-Translator::SetCurrentLanguage(Locale::Languages) | eboxxi.so
-VideoClass::ShowPCX(char const*, short, short, unsigned char) | eboxxi.so
 SystemClass::WaitTouch(long) | eboxxi.so
-system_info::SystemInfo::GetInstance() | eboxxi.so
-system_info::SystemInfo::IsPlatformGameTime() | eboxxi.so
-system_info::Get_Motherboard_Type() | eboxxi.so
 MouseManager::SetDebounce(int) | eboxxi.so
 MouseManager::Pop() | eboxxi.so
 MouseManager::Push() | eboxxi.so
-xml_gameinfo::enum_GameIds_tag(xml_gameinfo::GameIds, bool) | libcontent.so
-ChainRestClass::GetPicFileName(xml_gameinfo::GameIds, int) | eboxxi.so
-xml_gamerandom::PICRAND_record::AdjustTime(int, long) | eboxxi.so
-xml_gamerandom::PICRAND_record::PICRAND_record(xml_gamerandom::PICRAND_record const&) | eboxxi.so
-xml_gamerandom::PICRAND_record::PICRAND_record() | eboxxi.so
-xml_gamerandom::PICRAND_record::~PICRAND_record() | eboxxi.so
-xml_gamerandom::PICRAND_record::operator=(xml_gamerandom::PICRAND_record const&) | eboxxi.so
-RandomizedArrayClass::SetBookMark(unsigned char) | eboxxi.so
-RandomizedArrayClass::GetNextValue(int) | eboxxi.so
-RandomizedArrayClass::GotoBookMark(unsigned char) | eboxxi.so
-RandomizedArrayClass::RandomizedArrayClass(xml_gamerandom::PICRAND_record*, int, unsigned char, unsigned short*) | eboxxi.so
-RandomizedArrayClass::~RandomizedArrayClass() | eboxxi.so
-Books::LogCategoryPlays(xml_gameinfo::GameIds, int, int) | eboxxi.so
-Books::Credits(xml_gameinfo::GameIds, enums::Span) | eboxxi.so
-Books::Instance() | eboxxi.so
 USBIO::FoundUSB() | eboxxi.so
-Bitmap::ConvertSmack(unsigned char) | eboxxi.so
-Bitmap::CopyFromScreen(int, int, bool) | eboxxi.so
-Bitmap::CreateSmackTextBox(char const*, FontBase*, signed char, unsigned short, unsigned short, bool) | eboxxi.so
-Bitmap::CreateColoredTextBoxTTFS(char const*, int, int, int, int, int, int, int, int, int, bool, char*, int) | eboxxi.so
-Bitmap::GreyBmp() | eboxxi.so
-Bitmap::LoadJPEG(char*, int, int, unsigned char) | eboxxi.so
-Bitmap::LoadSmack(char*, unsigned char, unsigned char) | eboxxi.so
-Settings::Init() | eboxxi.so
-Settings::Init() | libcontent.so
-Settings::Load() | eboxxi.so
-Settings::Load() | libcontent.so
-Settings::Cleanup() | eboxxi.so
-Settings::Cleanup() | libcontent.so
-Settings::Restore(abstract_xml_record const*) | eboxxi.so
-Settings::Restore(abstract_xml_record const*) | libcontent.so
-Settings::SaveNow() | libcontent.so
-Settings::Settings(char const*, unsigned int) | eboxxi.so
-Settings::Settings(char const*, unsigned int) | libcontent.so
-Settings::~Settings() | eboxxi.so
-Settings::~Settings() | libcontent.so
-xml_gamerandom::PICRAND_record::operator!=(xml_gamerandom::PICRAND_record const&) const | eboxxi.so
-Settings::Key(unsigned int, bool) const | eboxxi.so
-Settings::Key(unsigned int, bool) const | libcontent.so
-typeinfo for Settings | eboxxi.so
-typeinfo for Settings | libcontent.so
-typeinfo for xml_gamerandom::PICRAND_record | eboxxi.so
-al_findclose | eboxxi.so
-al_findfirst | eboxxi.so
-al_findnext | eboxxi.so
-clear_bitmap | eboxxi.so
-gfx_driver | eboxxi.so
-screen | eboxxi.so
